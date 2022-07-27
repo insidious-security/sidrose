@@ -21,7 +21,7 @@ $ python3 sidrose.py
 
 :
 
-# Make sure NOT to delete the key "14-12-14", you'll need this to decrypt the data again.
+# Make sure NOT to delete the "very-special-key", you'll need this to decrypt the data again.
 # The key is random generated and can be used only for the encypted contents its been created for.
 
 Please note: 
