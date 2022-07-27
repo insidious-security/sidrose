@@ -5,6 +5,9 @@ The python module used is Fernet, symetric encryption.
 
 ## Usage:
 ```bash
+# Install the required python module
+$ pip3 install cryptography
+
 # Execute this source in the directory of which you want to encrypt the contents.
 $ python3 sidrose.py 
 
