@@ -1,7 +1,7 @@
 # SidRose
 
 This code can be used to encrypt and decrypt small files and directories limited to 2GB in file size.
-The python module used is Fernet, symetric encryption.
+The python module used is Fernet, symmetric encryption.
 
 ## Usage:
 ```bash
