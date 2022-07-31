@@ -25,7 +25,7 @@ $ python3 sidrose.py
 :
 
 # Make sure NOT to delete the "very-special-key", you'll need this to decrypt the data again.
-# The key is random generated and can be used only for the encypted contents its been created for.
+# The key is random generated and can be used only for the encrypted contents its been created for.
 
 Please note: 
 # When using this code on larger directories then specified above this program wil not act as intended, use with caution.
